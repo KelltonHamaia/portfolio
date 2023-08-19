@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .image-card {
+    @apply object-contain w-40 mx-auto rounded h-28;
+  }
+
+  .image-projects-card {
+    @apply object-contain w-full h-auto mx-auto rounded;
+  }
+  
+  .card-transition {
+    @apply transition-all delay-75 md:hover:-translate-y-2
+  }
+}
